@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.optim as optim
 import numpy as np
 import cv2
-import uuid
+import uuidpip
 import os
 
 from model import U2NET
@@ -109,5 +109,5 @@ else:
 
 print("---Removing Background...")
 # ------- Call The removeBg Function --------
-imgPath = "Image_File_Path"  # Change this to your image path
+imgPath = "temp-logo.png"  # Change this to your image path
 print(removeBg(imgPath))
